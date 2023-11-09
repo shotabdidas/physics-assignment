@@ -1,0 +1,43 @@
+#include<bits/stdc++.h>
+using namespace std;
+void check_colour(int a){
+    
+    if (a>=380 && a<450)
+        cout<<"Colour: Violet";
+        
+    else if (a>=450 && a<485)
+        cout<<"Colour: Blue";
+        
+    else if (a>=485 && a<500)
+        cout<<"Colour: Cyan";
+        
+    else if (a>=500 && a<565)
+        cout<<"Colour: Green";
+        
+    else if (a>=565 && a<590)
+        cout<<"Colour: Yellow";
+        
+    else if (a>=590 && a<625)
+        cout<<"Colour: Orange";
+        
+    else if (a>=625 && a<=750)
+        cout<<"Colour: Red";
+
+    else
+        cout<<"Not in range of visiable light spectrum.";
+]
+int main(){
+    int m;
+    double d,theta;
+    cout<<"Enter the value of m: ";cin>>m;
+    cout<<"Enter the value of d: ";cin>>d;
+    cout<<"Enter the value of theta: ";cin>>theta;
+double answer=(((d*1e-6)sin(theta(M_PI/180)))/m);
+    answer=answer/1e-9;
+
+    int wave_length=int(answer);
+
+    cout<<endl<<"........Result........"<<endl;
+    cout<<"Wave length : "<<wave_length<<endl;
+    check_colour(wave_length);
+]
