@@ -1,0 +1,6 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main() {
+    int m1=3,m2=2;
+    double lambda1=530.0,lambda2=700.0;
+    double theta1=65.0;
