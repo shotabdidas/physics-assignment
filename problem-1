@@ -25,7 +25,7 @@ void check_colour(int a){
 
     else
         cout<<"Not in range of visiable light spectrum.";
-]
+}
 int main(){
     int m;
     double d,theta;
@@ -40,4 +40,4 @@ double answer=(((d*1e-6)sin(theta(M_PI/180)))/m);
     cout<<endl<<"........Result........"<<endl;
     cout<<"Wave length : "<<wave_length<<endl;
     check_colour(wave_length);
-]
+}
